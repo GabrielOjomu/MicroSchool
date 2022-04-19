@@ -30,7 +30,7 @@ services:
   orderdb:
     container_name: orderdb
     environment:
-      SA_PASSWORD: "move0n.com"
+      SA_PASSWORD: "local_sa_123"
       ACCEPT_EULA: "Y"
     restart: always
     ports:
